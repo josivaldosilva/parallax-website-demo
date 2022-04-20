@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: lightgray;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+header {
+    height: 100vh;
+    position: relative;
+    background: url("imagens/imagem-1.jpg") ;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header > h1{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(94, 94, 94, 0.637);
+    padding: 15px; 
+    font-weight: bold;
+}
+
+section {
+    padding: 80px;
+    line-height: 2em;
+    text-align: center;
+    color: white; 
+    background-color: black;
+} 
+
+section > h2 {
+    padding-bottom: 20px;
+}
+
+#section1 {
+    background-color: lightgray;
+    color: black;
+}
+ .three > h1{
+    background-color: rgba(94, 94, 94, 0.637);
+ }
+
+div {
+    position: relative;
+     height: 500px;
+    background-image: url("imagens/imagem-2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div > h1 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    padding: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+div.three {
+    background-image: url("imagens/imagem-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer {
+    height: 100vh;
+    position: relative;
+    background-image: url("imagens/imagem-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer > h1 {
+    font-weight: bold;
+    display: inline-block;
+    color: white;
+    background-color: rgba(94, 94, 94, 0.637);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
